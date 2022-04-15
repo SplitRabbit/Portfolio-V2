@@ -1,0 +1,68 @@
+:root {
+    --primary: #85dcba;
+    --secondary: #E27D60;
+    --tertiary: #41B3A3;
+    --quaternary: #e8a87c;
+    --quinary: #C38D9E;
+
+}
+
+/* general rules */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* entrance page */
+#entrance-page {
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        var(--primary) 0%,
+        var(--primary) 50%,
+        var(--tertiary) 50%,
+        var(--tertiary) 100%
+    );
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+.entrance-image {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+#entrance-page img {
+    width: 100%;
+}
+
+#entrance-text-1 {
+    display: flex;
+}
+
+#entrance-text-1 div{
+    color: var(--tertiary);
+    font-size: 100px;
+    padding: 75px;
+    font-family: sans-serif;
+    transform: rotate(-90deg);
+}
+
+#entrance-text-2 {
+    display: flex;
+    font-size: 100px;
+    padding: 25px;
+    color: var(--primary);
+    font-family: cursive;
+    transform: rotate(90deg);
+}
