@@ -30,6 +30,7 @@ function showEntrance() {
     let entrancetext1 = document.getElementById("entrance-text-1")
     let entrancetext2 = document.getElementById("entrance-text-2")
     let entrancepage = document.getElementById("entrance-page")
+    let homepage = document.getElementById("homepage")
 setTimeout(() => {
     showFade(entranceimg);
     setTimeout(() => {
@@ -37,6 +38,7 @@ setTimeout(() => {
         showFade(entrancetext2);
         setTimeout(() => {
             fade(entrancepage);
+            showFade(homepage);
         }, 3000);
     }, 500);
 }, 500);

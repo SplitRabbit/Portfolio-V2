@@ -58,3 +58,14 @@
     transform: rotate(90deg);
     opacity: 0;
 }
+
+/* homepage css */
+#homepage {
+    opacity: 0;
+    width:100%;
+    background-color: var(--primary);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size:10vw;
+}
