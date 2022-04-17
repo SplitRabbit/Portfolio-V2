@@ -63,9 +63,14 @@
     document.getElementById("aboutmelink").addEventListener("click",addaboutmeEl)
     function addaboutmeEl() {
         contentEL.innerHTML = "";
-        let addaboutmeEl = document.createElement("div")
-        addaboutmeEl.textContent = "about me"
-        contentEL.appendChild(addaboutmeEl)
+        let nameEL = document.createElement("div")
+        nameEL.textContent = "Hello, My Name is <strong>Jeffrey Wang</strong>"
+        nameEL.classList = ""
+        contentEL.appendChild(nameEL)
+        let goalsEl = document.createElement("div")
+        goalsEl.textContent = "I am an aspiring Full Stack Web Developer!"
+        goalsEl.classList = ""
+        contentEL.appendChild(goalsEl)
     };
 
     document.getElementById("githublink").addEventListener("click",addgithubEl)
@@ -88,7 +93,7 @@
     function addcontactEl() {
         contentEL.innerHTML = "";
         let addcontactEl = document.createElement("div")
-        addcontactEl.textContent = "contact info"
+        addcontactEl.innerHTML = ""
         contentEL.appendChild(addcontactEl)
     };
 
