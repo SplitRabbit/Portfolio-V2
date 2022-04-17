@@ -51,7 +51,9 @@
     //dynamically edit page based on clicked links
     var contentEL = document.getElementById("content");
     
+    document.getElementById("initials").addEventListener("click",addintroEl)
     function addintroEl() {
+        contentEL.innerHTML = "";
         let introEl = document.createElement("div")
         introEl.textContent = "Hi, I'm Jeffrey Wang"
         introEl.classList = "textcontent"

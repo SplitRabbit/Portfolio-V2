@@ -86,7 +86,7 @@
     border-bottom: 3px solid white;
 }
 
-.initials{
+#initials{
     padding: 2vh;
     font-size: 8vw;
     font-family: Modernia;
@@ -94,7 +94,7 @@
     float: left;
 }
 
-.initials:hover{
+#initials:hover{
     color: var(--tertiary);
 }
 
@@ -124,4 +124,5 @@
     font-size: 2vw;
     padding: 3vw;
     width: 90%;
+    font-family: sans-serif;
 }
