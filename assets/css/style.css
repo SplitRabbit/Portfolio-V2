@@ -77,18 +77,25 @@
     align-items: center;
     margin-top:auto;
     margin-bottom: auto;
+    background-image: url(./Background.png);
 }
 
 .jumbotron {
     width: 100%;
-    border-bottom: 3px solid var(--tertiary);
+    overflow: auto;
+    border-bottom: 3px solid white;
 }
 
 .initials{
     padding: 2vh;
-    font-size: 8vh;
+    font-size: 8vw;
     font-family: Modernia;
     color: var(--primary);
+    float: left;
+}
+
+.initials:hover{
+    color: var(--tertiary);
 }
 
 #aboutme {
@@ -96,8 +103,24 @@
     width: 95%;
 }
 
-.card {
-    color: var(--tertiary);
+.links {
+    display: flex;
+    font-family: Rosarina;
+    color: white;
+    font-size: 3vw;
+    padding: 2vw;
+    padding-top: 4vw;
+    float: right;
+    border-bottom: 3px solid transparent;
+}
+
+.links:hover {
+    color: var(--quaternary);
+    border-bottom: 3px solid var(--tertiary);
+}
+
+#content {
+    color: grey;
     font-size: 2vw;
     padding: 3vw;
     width: 90%;
